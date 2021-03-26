@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navigation */
+.navbar-toggler {
+    padding: 3px;
+}
+.line1, .line2, .line3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    background: #3c6e71;
+    transition: all 0.5s ease;
+    outline: none;
+}
+.navbar-toggler {
+    outline: none!important;
+}
+.navbar {
+    background: rgba(245, 245, 245, 0.918);
+    padding: 10px 20px;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-brand {
+    color: #1a759f;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: 700;
+    transition: all 0.8s ease;
+}
+.navbar-brand:hover {
+    color: #52b69a;
+}
+.nav-link {
+    color: #1a759f;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-left: 1em !important;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.nav-link:hover {
+    background: #1a759f;
+    color: #fff;
+}
+
+/*hero section*/
+.hero {
+    height: 85vh;
+    background: linear-gradient(rgba(52, 68, 241, 0.489), rgba(9, 9, 121, 0.295)),url('about.jpg');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    color: #fff;
+}
+.heading h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+.heading p {
+    font-size: 36px;
+}
+
+/* team section */
+.team {
+    margin: 4em 0;
+    position: relative;
+}
+.team h2 {
+    color: #1a759f;
+    margin: 1em;
+}
+.team .item {
+    position: relative;
+}
+.team .des {
+    background: #1a759f;
+    color: #fff;
+    text-align: center;
+    border-bottom-right-radius: 70%;
+    transition: .5s ease-in-out;
+}
+.team .item:hover .des {
+    height: 92%;
+    background:rgba(37, 189, 148, 0.295);
+    position: absolute;
+    width: 92%;
+    padding: 5em;
+    top: 0;
+    border-bottom-right-radius: 0%;
+}
+
