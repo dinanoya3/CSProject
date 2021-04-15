@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* navigation */
+.navbar-toggler {
+    padding: 3px;
+}
+.line1, .line2, .line3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    background: #3c6e71;
+    transition: all 0.5s ease;
+    outline: none;
+}
+.navbar-toggler {
+    outline: none !important;
+}
+.navbar {
+    background: #fff;
+    padding: 10px 20px;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-brand {
+    color: #1a759f;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: 700;
+    transition: all 0.8s ease;
+}
+.navbar-brand:hover {
+    color: #52b69a;
+}
+.nav-link {
+    color: #1a759f;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-left: 1em !important;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.nav-link:hover {
+    background: #1a759f;
+    color: #fff;
+}
+
+/*hero section*/
+.hero {
+    height: 85vh;
+    background: linear-gradient(to bottom right, rgba(82, 236, 200, 0.428), rgba(48, 164, 236, 0.469)), url('academy.jpg');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    color: #fff;
+}
+.heading h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+/* academy */
+.academy {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+.academy h2, p, ul {
+    color: #184E77;
+}
+.academy .description {
+    padding: 2em;
+    border-left: 2px solid #184E77;
+}
+.academy .description h3 {
+    color: #184E77;
+}
+.academy .description p {
+    line-height: 2;
+    color: #184E77;
+}
+
+.footer-color {
+    color: #184e77;
+}
